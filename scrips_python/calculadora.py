@@ -7,7 +7,7 @@ resta = a-b
 multipli = a*b
 divi = a/b
 
-print(suma)
-print(resta)
-print(multipli)
-print(divi)
+print("La suma es ", suma)
+print("La resta es ", resta)
+print("La multiplicaciòn es ", multipli)
+print("La diviciòn es ", divi)
