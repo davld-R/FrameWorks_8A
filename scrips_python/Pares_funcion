@@ -1,0 +1,23 @@
+'''
+Developer: David
+Date: 15 sep 2021
+Description: Script Python que permite identificar el mayor de dos nùmeros ingresados por consola a traves de una función
+'''
+
+import os
+
+os.system("clear")
+
+#Functions
+
+
+print("Ingrese primer nùmero: ")
+n1 = int(input())
+n2 = int(input("Ingrese segundo nùmero: "))
+
+if n1 > n2:
+    print("El mayor es: ", n1)
+elif n1 < n2:
+    print("El mayor es: ", n2)
+else :
+    print("::: Los números son iguales :::")
